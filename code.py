@@ -7,7 +7,7 @@ from playsound import playsound
 import win32gui
 import win32api
 import pyautogui
-directory = r"C:\Users\snir\OneDrive\Desktop\files\\"
+directory = r"your directory"
 playsound(directory + "startup.wav", block = False)
 print("press ctrl, then for english press ctrl again, shift for hebrew and alt for arabic")
 first_key = keyboard.read_key()
@@ -28,6 +28,12 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 dc = win32gui.GetDC(0)
 red = win32api.RGB(255, 0, 0)
 x, y = pyautogui.position()
+if x < firstx:
+    tempx, tempy = x, y
+    x,y = firstx, firsty
+    firstx = tempx
+    firsty = tempy
+    print("replaced x and y")
 try:
     im = PIL.ImageGrab.grab(bbox=(firstx, firsty, x, y))
 except:
@@ -78,3 +84,4 @@ monitor = (0, 0, win32api.GetSystemMetrics(0), win32api.GetSystemMetrics(1))
 win32gui.InvalidateRect(hwnd, monitor, True)
 time.sleep(2.5)
 quit()
+
