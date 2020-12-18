@@ -1,4 +1,4 @@
-mega link to one zip file with all files for the OCR https://mega.nz/file/RjwHESxb#xTjpokq7-GBAj3zhaXu9ibeDYG9hBPn-Bx0ZL9CWR3s
+mega link to one zip file with all files for the OCR https://mega.nz/file/JyACzLaJ#SFFEjVq9pv-1aXWTryit4RMrCqiOUSpKvd7hRxsxJps
 about code.py:
 code.py is the source code of the compiled version (compiled from python file to exe  file) of the auto-ocr project, ocr is Optical character recognition or זיהוי תווים אופטי in hebrew.
 you can use the code.py code if you have python installed, if you don't have python then you can use the compiled version of the code (exe file), also the code and the exe file is identical (doing the same thing).
