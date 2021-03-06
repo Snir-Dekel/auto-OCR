@@ -1,3 +1,4 @@
+# auto-ocr | pip install snirocr
 mega link to one zip file with all files for the OCR https://mega.nz/file/JyACzLaJ#SFFEjVq9pv-1aXWTryit4RMrCqiOUSpKvd7hRxsxJps
 
 about code.py:
