@@ -1,4 +1,6 @@
 # auto-ocr | pip install snirocr
+for automatic downloding- pip install snirocr in the cmd, them import the package in a python file.
+for manual downloading:
 mega link to one zip file with all files for the OCR https://mega.nz/file/JyACzLaJ#SFFEjVq9pv-1aXWTryit4RMrCqiOUSpKvd7hRxsxJps
 
 about code.py:
